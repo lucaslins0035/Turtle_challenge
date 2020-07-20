@@ -1,0 +1,7 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/lucas/Documents/Brazilian-Institut-of-Robotics/ROS_noetic/Turtle_Challenge/devel/lib/python3/dist-packages",
+        "/home/lucas/catkin_ws_top/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ]
+}
