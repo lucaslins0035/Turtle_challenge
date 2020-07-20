@@ -12,11 +12,11 @@ Clone the repository into a catkin workspace, compile and source.
 
 ## Usage:
 
-Open the turtlesim_node: 
+After initializing `roscore`, open the turtlesim_node in a new shell: 
 ```
 rosrun turtlesim turtlesim_node
 ```
-Open the `challenge.py` file passing the 'x' and 'y' parameters that indicates the destination of the turtle:
+Open the `challenge.py` file passing the 'x' and 'y' parameters that indicates the destination of the turtle in a new shell:
 ```
 rosrun turtle_challenge challenge.py 3.6 8.9
 ```
