@@ -1,0 +1,7 @@
+<launch>
+    <include file="$(find ds4_driver)/launch/ds4_driver.launch" />
+  <!--  <node pkg="turtlesim" type="turtlesim_node" name="turtle_in_water" />  Add turtlesim-->
+    <node pkg="joystick" type="joystick.py" name="joystick" >
+        <param name="ds4_publish_in" value="/set_a_topic_name_here" />
+    </node>
+</launch>
